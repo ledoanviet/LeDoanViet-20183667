@@ -1,0 +1,7 @@
+Refactor đối với class API:
+- phương thức get và post được thực hiện phức tạp và khó hiểu
+- có những đoạn code sử dụng lặp lại ở cả hai phương thức get và post
+--> extract method: tạo thêm 2 method mới là setupConnection và readResponse
+
+Refactor đối với class PlaceRushOrderController: 
+Class đơn giản và dễ hiểu, các method đều phục vụ cho mục đích chung --> chưa cần refactor
